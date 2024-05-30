@@ -4,6 +4,8 @@
 # Custom for Visual Studio
 *.cs     diff=csharp
 
+this is my computer
+
 # Standard to msysgit
 *.doc	 diff=astextplain
 *.DOC	 diff=astextplain

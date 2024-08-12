@@ -11,7 +11,7 @@ print('It can add, subtract, multiply and divide whole numbers from 0 to 50')
 # sign = input('What do you want to do? +, -, /, or *: ')
 # num2 = int(input('Please choose your second number: '))
 num1 = int(os.environ['NUM1'])
-sign = int(os.environ['SIGN'])
+sign = os.environ['SIGN']
 num2 = int(os.environ['NUM2'])
 
 if num1 == 0 and sign == '+' and num2 == 0:

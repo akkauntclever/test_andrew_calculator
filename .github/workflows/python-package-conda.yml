@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NUM1: '50'
-      NUM2: '50'
+      NUM2: ''
       SIGN: '*'
     strategy:
       max-parallel: 5

@@ -35,6 +35,6 @@ jobs:
     - name: run calc
       run: |
         python my_first_calculator.py
-        50
-        +
-        50
+        echo 50
+        echo +
+        echo 50

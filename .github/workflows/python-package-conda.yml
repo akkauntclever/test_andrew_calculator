@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NUM1: '50'
-      NUM2: ''
-      SIGN: '*'
+      NUM2: '49'
+      SIGN: '<'
     strategy:
       max-parallel: 5
     steps:

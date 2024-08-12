@@ -34,7 +34,7 @@ jobs:
     #     pytest
     - name: run calc
       run: |
+        NUM1=50
+        NUM2=50
+        SIGN=+
         python my_first_calculator.py
-        echo 50
-        echo +
-        echo 50

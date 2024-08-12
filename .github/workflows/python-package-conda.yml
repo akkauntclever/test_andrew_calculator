@@ -8,7 +8,7 @@ jobs:
     env:
       NUM1: '50'
       NUM2: '49'
-      SIGN: '<'
+      SIGN: 'gc,gjcjgc,h'
     strategy:
       max-parallel: 5
     steps:

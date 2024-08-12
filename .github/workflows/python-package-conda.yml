@@ -5,9 +5,12 @@ on: [push]
 jobs:
   build-linux:
     runs-on: ubuntu-latest
+    env:
+      NUM1: '50'
+      NUM2: '50'
+      SIGN: '+'
     strategy:
       max-parallel: 5
-
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python 3.10
@@ -32,9 +35,7 @@ jobs:
     #   run: |
     #     conda install pytest
     #     pytest
+    
     - name: run calc
       run: |
-        NUM1=50
-        NUM2=50
-        SIGN=+
         python my_first_calculator.py
